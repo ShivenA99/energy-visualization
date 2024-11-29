@@ -9,14 +9,14 @@ export function fetchAllData() {
             year: year,
             countries: [
               {
-                name: 'Country A',
+                name: 'India',
                 attr1: Math.random() * 100,
                 attr2: Math.random() * 100,
                 lat: 10 * Math.random(),
                 lng: 10 * Math.random(),
               },
               {
-                name: 'Country B',
+                name: 'S. Sudan',
                 attr1: Math.random() * 100,
                 attr2: Math.random() * 100,
                 lat: 20 * Math.random(),
