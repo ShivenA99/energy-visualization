@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Streamgraph Example</title>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <style>
+        .area {
+            fill-opacity: 0.7;
+            stroke-width: 0.5;
+        }
+        .axis path,
+        .axis line {
+            shape-rendering: crispEdges;
+        }
+    </style>
+</head>
+<body>
+    <div id="country-selection">
+        <h3>Select Country</h3>
+        <select id="country-dropdown" multiple size="5">
+            <!-- Dropdown options will be dynamically added here -->
+        </select>
+      </div>
+
+    <div id="chart"></div> <!-- Updated to wrap the chart -->
+    <script src="index.js"></script> <!-- Corrected the script file name -->
+</body>
+</html>

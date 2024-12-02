@@ -1,0 +1,8 @@
+[
+    { "year": 2000, "country": "USA", "source": "Coal", "value": 120 },
+    { "year": 2000, "country": "USA", "source": "Oil", "value": 150 },
+    { "year": 2000, "country": "USA", "source": "Renewables", "value": 60 },
+    { "year": 2001, "country": "China", "source": "Coal", "value": 180 },
+    { "year": 2001, "country": "China", "source": "Oil", "value": 80 },
+    { "year": 2001, "country": "China", "source": "Renewables", "value": 90 }
+  ]
